@@ -90,16 +90,16 @@ function UserStatus({ isLoggedIn, unreadMessages }) {
     >
       {isLoggedIn ? (
         <div>
-          <h2>Selamat datang kembali! 🎉</h2>
+          <h2>Selamat datang kembali!</h2>
           {unreadMessages > 0 ? (
-            <p>Anda punya {unreadMessages} pesan baru 📩</p>
+            <p>Anda punya {unreadMessages} pesan baru</p>
           ) : (
-            <p>Tidak ada pesan baru 📭</p>
+            <p>Tidak ada pesan baru</p>
           )}
         </div>
       ) : (
         <div>
-          <h2>Anda belum login ❌</h2>
+          <h2>Anda belum login</h2>
           <button style={{ padding: "8px 16px", borderRadius: "5px" }}>
             Login
           </button>
@@ -112,7 +112,7 @@ function UserStatus({ isLoggedIn, unreadMessages }) {
 function FruitList({ fruits }) {
   return (
     <div style={{ margin: "20px", textAlign: "center" }}>
-      <h2>Daftar Buah 🍎🍊🍌</h2>
+      <h2>Daftar Buah</h2>
       <ul style={{ listStyle: "none", padding: 0 }}>
         {fruits.map((fruit, index) => (
           <li
