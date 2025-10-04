@@ -1,0 +1,17 @@
+.responsive-box {
+  background-color: teal;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  width: 60%;
+  margin: 20px auto;
+}
+
+@media (max-width: 600px) {
+  .responsive-box {
+    background-color: crimson;
+    width: 90%;
+    padding: 10px;
+  }
+}

@@ -1,0 +1,23 @@
+.success {
+  background-color: #28a745;
+  color: white;
+  padding: 15px;
+  border-radius: 6px;
+  margin: 10px;
+}
+
+.warning {
+  background-color: #ffc107;
+  color: black;
+  padding: 15px;
+  border-radius: 6px;
+  margin: 10px;
+}
+
+.error {
+  background-color: #dc3545;
+  color: white;
+  padding: 15px;
+  border-radius: 6px;
+  margin: 10px;
+}

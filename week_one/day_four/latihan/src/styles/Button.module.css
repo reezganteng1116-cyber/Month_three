@@ -1,0 +1,23 @@
+.default {
+  background-color: lightgray;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  margin: 8px;
+  cursor: pointer;
+}
+
+.primary {
+  background-color: royalblue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  margin: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}

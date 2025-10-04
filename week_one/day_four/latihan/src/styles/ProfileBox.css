@@ -1,0 +1,17 @@
+.profile-container {
+  border: 2px solid white;
+  background-color: #003744;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  width: 300px;
+  margin: 20px auto;
+}
+
+.profile-image {
+  width: 300px;
+  height: 230px;
+  border-radius: 50%;
+  border: 3px solid lightblue;
+  margin-top: 10px;
+}

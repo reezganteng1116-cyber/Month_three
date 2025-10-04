@@ -1,0 +1,38 @@
+.box {
+  background-color: rgb(0, 50, 70);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  width: 250px;
+  margin: 20px auto;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: white;
+}
+.responsive {
+  width: 300px;
+  height: 150px;
+  background-color: teal;
+  color: white;
+  text-align: center;
+  line-height: 150px;
+  margin: 20px auto;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 600px) {
+  .responsive {
+    background-color: purple;
+    width: 200px;
+    line-height: 100px;
+  }
+}
